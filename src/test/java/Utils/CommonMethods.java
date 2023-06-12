@@ -53,7 +53,12 @@ public class CommonMethods {
     public static void selectSingle(WebElement days, String monday) {
     }
 
-
+    
+    /*
+    HW:
+    create a method in Common methods for screen-shot
+    it should take file name as a parameter.
+ */
     public static void takeScreenShot(String filename) {
         TakesScreenshot ts = (TakesScreenshot) driver;
         File screenShot = ts.getScreenshotAs(OutputType.FILE);
